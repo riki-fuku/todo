@@ -1,0 +1,99 @@
+.success__message {
+    background: #d1e7dd;
+    border: 1px solid #badbcc;
+}
+
+.success__message-alert {
+    padding: 12px 5px;
+    color: #0f5132;
+    font-weight: bold;
+}
+
+.error__message {
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+}
+
+.error__message-alert {
+    padding: 12px 5px;
+    color:#842029;
+    font-weight: bold;
+}
+
+.todo-content {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.todo-form {
+    position: flex;
+    justify-content: space-between;
+}
+
+.todo-form__input {
+    display: inline-block;
+    padding: 10px;
+    width: 60%;
+}
+
+.todo-form__button {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.todo-form__button--submit {
+    padding: 10px 70px;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.todo-table__inner {
+    margin-top: 60px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.todo-table__tr {
+    border-bottom: 1px solid #000;
+}
+
+.todo-table__th {
+    padding: 20px 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todo-table__content {
+    padding: 20px 20px;
+    width: 70%;
+}
+
+.todo-table__confirm, .todo-table__delete {
+    width: 15%;
+    text-align: center;
+}
+
+.todo-table__confirm-button-submit, .todo-table__delete-button-submit {
+    padding: 5px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo-table__confirm-button-submit {
+    background: #0000ff;
+}
+
+.todo-table__delete-button-submit {
+    background: #ff0000;
+}
+
+.todo-table__th {
+    font-weight: bold;
+}
+
+.todo-table__content-input {
+    border: none;
+}

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin: 0;
+    width: 100%;
+    background: #000;
+}
+
+.header__logo {
+    padding: 15px 10px;
+}
+
+.header__logo-link {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
